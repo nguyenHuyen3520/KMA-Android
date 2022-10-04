@@ -7,6 +7,7 @@ import Interface4Screen from '../Screens/Interface4Screen';
 
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../Screens/Home';
+import bai2 from '../Screens/BT2909/bai2';
 
 const Stack = createStackNavigator();
 
@@ -22,12 +23,12 @@ const AppNavigation = () => {
                     }}
                 />
                 <Stack.Screen
-                    name="INTERFACE1" component={Interface1Screen}
+                    name="BAI2" component={bai2}
                     options={{
                         // headerShown: false,
                     }}
                 />
-                <Stack.Screen
+                {/* <Stack.Screen
                     name="INTERFACE2" component={Interface2Screen}
                     options={{
                         // headerShown: false,
@@ -44,7 +45,7 @@ const AppNavigation = () => {
                     options={{
                         // headerShown: false
                     }}
-                />
+                /> */}
             </Stack.Navigator>
         </NavigationContainer>
     )

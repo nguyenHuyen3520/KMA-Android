@@ -7,14 +7,14 @@ const Home = ({ navigation }) => {
         <View style={styles.container}>
             <Text style={{ padding: 10 }}>Interface List:</Text>
             <View>
-                <TouchableOpacity onPress={() => navigation.navigate("INTERFACE1")}>
+                <TouchableOpacity onPress={() => navigation.navigate("BAI2")}>
                     <View style={{ padding: 10, backgroundColor: '#4baef8', paddingHorizontal: 30, borderRadius: 5, marginBottom: 10 }}>
                         <Text style={{ color: 'white' }}>
-                            Interface 1
+                            Bai 2
                         </Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate("INTERFACE2")}>
+                {/* <TouchableOpacity onPress={() => navigation.navigate("INTERFACE2")}>
                     <View style={{ padding: 10, backgroundColor: '#4baef8', paddingHorizontal: 30, borderRadius: 5, marginBottom: 10 }}>
                         <Text style={{ color: 'white' }}>
                             Interface 2
@@ -34,7 +34,7 @@ const Home = ({ navigation }) => {
                             Interface 4
                         </Text>
                     </View>
-                </TouchableOpacity>
+                </TouchableOpacity> */}
             </View>
         </View>
     )
